@@ -1,0 +1,151 @@
+:root{
+    --color-white: #fff;
+    --background-color: lightskyblue;
+}
+body{
+    background-image:url(assets/dstv-login-bg.jpg) ;
+    background-size: cover;
+}
+.container{
+    background-color: #065ba1;
+    margin: auto;
+    margin-top: 120px;
+    width: 75vh;
+    height: 500px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    width: 20%;
+    margin-top: 0;
+}
+.logo-paragraph{
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 0;
+}
+input{
+    background-color: var(--background-color);
+    border: none;
+}
+input:focus{
+    outline: none;
+    border: none;
+    color: white;
+}
+::placeholder{
+    color: var(--color-white);
+    font-weight: bold;
+    /* text-align: center; */
+    padding-left: 54px;
+}
+.input-div{
+    text-align: center;
+    position: relative; 
+}
+.icon{
+    position: absolute;
+    color: var(--color-white);
+}
+.icon-right{
+    left: 75px;
+    padding: 4px;
+}
+.icon-left{
+    right: 75px;
+    padding: 4px;
+}
+.input-box{
+    width: 75%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+.select{
+    position: absolute;
+    left: 380px;
+    height: 31px;
+    color: var(--color-white);
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 8px;
+}
+.div-1{
+    display: flex;
+    align-content: center;
+}
+/* .info{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: var(--color-white);
+    padding: 0;
+} */
+.checkbox{
+    margin-left: 70px;
+    width: 20px;
+    height: 20px;
+}
+.checkbox:checked{
+    width: 30px;
+    height: 30px;
+}
+label{
+    color: var(--color-white);
+    align-items: center;
+    display: flex;
+}
+.btn{
+   margin-left: 150px;
+   margin-top: 20px;
+   width: 12rem;
+   height: 40px;
+   border-radius: 100px;
+   background-color: var(--background-color);
+   color: var(--color-white);
+   border: none;
+}
+.btn-1{
+    position: relative;
+}
+.icon-btn{
+    position: absolute;
+    bottom: 9px;
+    right: 150px;
+}
+hr{
+    width: 65%;
+    margin-top: 40px;
+    opacity: 0.6;
+}
+.hr-line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.or{
+   position: absolute;
+   padding:8px;
+   color: lightskyblue;
+   background-color: white;
+   border-radius: 60%;
+   margin-top: 23px;
+
+}
+.footer-1{
+    color: var(--color-white);
+}
+.footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-footer{
+    position: absolute;
+    right: 555px;
+}
